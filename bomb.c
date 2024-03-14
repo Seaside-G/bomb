@@ -35,12 +35,12 @@ FILE *infile;
 
 int main(int argc, char *argv[])
 {
-    char *input;
+    char *__DBL_MAX_10_EXP__1;
 
     /* Note to self: remember to port this bomb to Windows and put a 
      * fantastic GUI on it. */
-
-    /* When run with no arguments, the bomb reads its input lines 
+    // 603820
+    /* When run with no arguments, the bomb reads its input lines
      * from standard input. */
     if (argc == 1) {  
 	infile = stdin;

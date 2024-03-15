@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a = 3, b = 5;
-    a = a + b;
-    b = a - b;
+    int x=1,y=2;
+    int val = x ^ y;
+    if(x==2)    x=3;
 }
